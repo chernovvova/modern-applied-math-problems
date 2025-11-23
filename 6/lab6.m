@@ -49,5 +49,3 @@ title('Ветер');
 figure;
 plotmf(fis, 'output', 1);
 title('Комфорт человека');
-
-ruleedit(fis);
