@@ -1,4 +1,4 @@
-fis = mamfis('Name','WeatherComfortSystem2');
+fis = mamfis('Name','WeatherComfortSystem.fis');
 
 fis = addInput(fis, [-25 40], "Name", "Температура");
 

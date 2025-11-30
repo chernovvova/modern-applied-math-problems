@@ -1,4 +1,4 @@
-fis = readfis('WeatherComfortSystem_improved.fis');
+fis = readfis('WeatherComfortSystem_optimized.fis');
 
 % Температура | Влажность | Скорость ветра | Давление
 testCases = [
@@ -24,7 +24,7 @@ testCases = [
 
 
 fprintf("%3s | %10s | %10s | %10s | %10s | %10s\n", ...
-    "#", "Темп", "Влажн.", "Ветер", "Давление", "Комфорт");
+    "#", "Температура", "Влажнность", "Ветер", "Давление", "Комфорт");
 fprintf("%s", repmat("-", 1, 70));
 fprintf('\n');
 
